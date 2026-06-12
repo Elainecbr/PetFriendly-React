@@ -73,11 +73,11 @@ export default function ServiceDetail() {
           <div className="detail-actions">
             <a
               className="btn-dashboard-link"
-              href="https://petfriendly-dashboard.onrender.com/"
+              href={primaryAction.href}
               target="_blank"
               rel="noopener noreferrer"
             >
-              Dashboard PetFriendly
+              {primaryAction.label}
             </a>
 
             <Link to="/servicos" className="btn-back-services">
