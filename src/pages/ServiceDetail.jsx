@@ -8,6 +8,16 @@ export default function ServiceDetail() {
   const { id } = useParams();
   const [loading, setLoading] = useState(true);
   const service = servicesData.find((s) => String(s.id) === id);
+  const primaryAction =
+    service?.id === 2 || service?.id === 3
+      ? {
+          href: "https://pet-web-frontend.onrender.com/",
+          label: "🚩 Bem-Estar & Saúde Canina",
+        }
+      : {
+          href: "https://petfriendly-dashboard.onrender.com/",
+          label: "Dashboard PetFriendly",
+        };
 
   useEffect(() => {
     const timer = setTimeout(() => setLoading(false), 350);
@@ -33,11 +43,11 @@ export default function ServiceDetail() {
           <div className="detail-actions">
             <a
               className="btn-dashboard-link"
-              href="https://petfriendly-dashboard.onrender.com/"
+              href={primaryAction.href}
               target="_blank"
               rel="noopener noreferrer"
             >
-              Dashboard PetFriendly
+              {primaryAction.label}
             </a>
 
             <Link to="/servicos" className="btn-back-services">
