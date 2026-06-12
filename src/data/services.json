@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Passeio Pet Friendly",
+    "description": "Roteiros com parques e áreas abertas para pets.",
+    "image": "/decor/caoz6.png",
+    "detailTitle": "Passeio Pet Friendly",
+    "detailText": "Utilize nosso sistema para busca de lugares pet-friendly, incluindo parques, praças e estabelecimentos, com funcionalidades de cálculo de distância e rotas.",
+    "detailImage": "/decor/caoz6.png"
+  },
+  {
+    "id": 2,
+    "title": "O Bem-Estar Canino",
+    "description": "Mimos e cuidados para características genéticas.",
+    "image": "/decor/caoz2.png",
+    "detailTitle": "O Bem-Estar Canino - Para cada Raça",
+    "detailText": "O bem-estar canino depende de estímulos físicos e mentais ajustados ao porte e temperamento. Aqui você descobre necessidades específicas para cada raça e porte.",
+    "detailImage": "/decor/caoz2.png"
+  },
+  {
+    "id": 3,
+    "title": "A Saúde Canina",
+    "description": "Averigue os sintomas do seu cãozinho e fale com o veterinário.",
+    "image": "/decor/caoz7.png",
+    "detailTitle": "Averigue os sintomas do seu cãozinho",
+    "detailText": "Cães frequentemente escondem desconfortos. Mudanças sutis na rotina e no corpo podem indicar dor ou doença. Observe os sinais e procure orientação veterinária.",
+    "detailImage": "/decor/caoz7.png"
+  }
+]
