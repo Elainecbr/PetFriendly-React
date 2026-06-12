@@ -199,6 +199,39 @@ button:hover {
   align-items: start;
 }
 
+.detail-actions {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.btn-back-services,
+.btn-dashboard-link {
+  background: var(--pink);
+  color: #fff;
+  border: 0;
+  border-radius: 12px;
+  padding: 13px 18px;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 1.05rem;
+  transition: background 0.2s ease;
+}
+
+.btn-back-services {
+  width: fit-content;
+}
+
+.btn-dashboard-link {
+  width: min(100%, 600px);
+  text-align: center;
+}
+
+.btn-back-services:hover,
+.btn-dashboard-link:hover {
+  background: var(--pink-dark);
+}
+
 .home-image,
 .booking-image,
 .detail-left img {
@@ -260,6 +293,10 @@ button:hover {
   .booking-layout,
   .detail-layout {
     grid-template-columns: 1fr;
+  }
+
+  .btn-dashboard-link {
+    width: 100%;
   }
 
   .header-inner {

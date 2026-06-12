@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import servicesData from "../data/services.json";
 import LoadingSpinner from "../components/LoadingSpinner";
 
@@ -27,6 +27,21 @@ export default function ServiceDetail() {
   if (!service) {
     return (
       <section className="page-shell">
+        <div className="detail-actions">
+          <Link to="/servicos" className="btn-back-services">
+            ← Voltar aos Serviços
+          </Link>
+
+          <a
+            className="btn-dashboard-link"
+            href="https://petfriendly-dashboard.onrender.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Dashboard PetFriendly
+          </a>
+        </div>
+
         <div className="content-card">
           <p>Serviço não encontrado.</p>
         </div>
@@ -36,6 +51,21 @@ export default function ServiceDetail() {
 
   return (
     <section className="page-shell">
+      <div className="detail-actions">
+        <Link to="/servicos" className="btn-back-services">
+          ← Voltar aos Serviços
+        </Link>
+
+        <a
+          className="btn-dashboard-link"
+          href="https://petfriendly-dashboard.onrender.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Dashboard PetFriendly
+        </a>
+      </div>
+
       <div className="detail-layout">
         <div className="detail-left">
           <h2>{service.detailTitle}</h2>
