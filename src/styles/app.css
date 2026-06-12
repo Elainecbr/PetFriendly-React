@@ -200,9 +200,11 @@ button:hover {
 }
 
 .detail-actions {
-  display: grid;
-  gap: 12px;
-  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 12px;
 }
 
 .btn-back-services,
@@ -210,21 +212,15 @@ button:hover {
   background: var(--pink);
   color: #fff;
   border: 0;
-  border-radius: 12px;
-  padding: 13px 18px;
+  border-radius: 8px;
+  padding: 9px 14px;
   text-decoration: none;
-  font-weight: 800;
-  font-size: 1.05rem;
-  transition: background 0.2s ease;
-}
-
-.btn-back-services {
+  font-weight: 700;
+  font-size: 0.95rem;
+  line-height: 1.2;
+  display: inline-flex;
   width: fit-content;
-}
-
-.btn-dashboard-link {
-  width: min(100%, 600px);
-  text-align: center;
+  transition: background 0.2s ease;
 }
 
 .btn-back-services:hover,
@@ -295,8 +291,14 @@ button:hover {
     grid-template-columns: 1fr;
   }
 
+  .detail-actions {
+    width: 100%;
+  }
+
+  .btn-back-services,
   .btn-dashboard-link {
     width: 100%;
+    max-width: 320px;
   }
 
   .header-inner {

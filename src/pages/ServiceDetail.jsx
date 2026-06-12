@@ -27,23 +27,23 @@ export default function ServiceDetail() {
   if (!service) {
     return (
       <section className="page-shell">
-        <div className="detail-actions">
-          <Link to="/servicos" className="btn-back-services">
-            ← Voltar aos Serviços
-          </Link>
-
-          <a
-            className="btn-dashboard-link"
-            href="https://petfriendly-dashboard.onrender.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Dashboard PetFriendly
-          </a>
-        </div>
-
         <div className="content-card">
           <p>Serviço não encontrado.</p>
+
+          <div className="detail-actions">
+            <a
+              className="btn-dashboard-link"
+              href="https://petfriendly-dashboard.onrender.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Dashboard PetFriendly
+            </a>
+
+            <Link to="/servicos" className="btn-back-services">
+              ← Voltar aos Serviços
+            </Link>
+          </div>
         </div>
       </section>
     );
@@ -51,21 +51,6 @@ export default function ServiceDetail() {
 
   return (
     <section className="page-shell">
-      <div className="detail-actions">
-        <Link to="/servicos" className="btn-back-services">
-          ← Voltar aos Serviços
-        </Link>
-
-        <a
-          className="btn-dashboard-link"
-          href="https://petfriendly-dashboard.onrender.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Dashboard PetFriendly
-        </a>
-      </div>
-
       <div className="detail-layout">
         <div className="detail-left">
           <h2>{service.detailTitle}</h2>
@@ -74,6 +59,21 @@ export default function ServiceDetail() {
         <div className="detail-right">
           <h2>{service.id === 3 ? "Saúde Canina" : "Descrição"}</h2>
           <p>{service.detailText}</p>
+
+          <div className="detail-actions">
+            <a
+              className="btn-dashboard-link"
+              href="https://petfriendly-dashboard.onrender.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Dashboard PetFriendly
+            </a>
+
+            <Link to="/servicos" className="btn-back-services">
+              ← Voltar aos Serviços
+            </Link>
+          </div>
         </div>
       </div>
     </section>
