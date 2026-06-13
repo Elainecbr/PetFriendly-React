@@ -1,4 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
+import flowerImage from "../assets/decor/flor.png";
 
 // Cabeçalho reutilizável com destaque de rota ativa via useLocation.
 export default function Header() {
@@ -13,7 +14,10 @@ export default function Header() {
   return (
     <header className="header">
       <div className="header-inner">
-        <h1 className="brand">PetFriendly React</h1>
+        <div className="brand-wrap">
+          <h1 className="brand">PetFriendly React</h1>
+          <img className="brand-flower" src={flowerImage} alt="Flor decorativa" />
+        </div>
 
         <nav className="nav">
           <Link className={isActive("/") ? "active" : ""} to="/">
