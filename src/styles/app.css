@@ -5,24 +5,21 @@
   --pink-dark: #b92571;
   --card: #ecdfc4;
   --border: #e6e7ef;
-}
+      }
 
 * {
   box-sizing: border-box;
-}
+  }
 
-body {
-  margin: 0;
+body {  
   font-family: Arial, sans-serif;
   color: var(--text);
-  background: var(--bg);
+  background-color: var(--bg);
   position: relative;
   overflow-x: hidden;
-  background-image: url('/decor/bgpatinhas.png');
-  background-position: 100% bottom;
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
+  margin: 0;
+  min-height: 100vh;
+     }
 
 /* Fundo decorativo alternativo (gradientes), mantido comentado como referencia.
 body::before,
@@ -60,6 +57,39 @@ body::after {
 .container {
   position: relative;
   z-index: 1;
+}
+
+.app-shell {
+  position: relative;
+  isolation: isolate;
+  min-height: 100vh;
+}
+
+.app-shell::before,
+.app-shell::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-image: url('/decor/bgpatinhas.png');
+  background-repeat: no-repeat;
+  background-size: min(1400px, 100vw) auto;
+  opacity: 0.95;
+}
+
+.app-shell::before {
+  background-position: center top;
+}
+
+.app-shell::after {
+  background-position: center bottom;
+}
+
+.app-shell-inner {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
 }
 
 .header {
@@ -101,7 +131,7 @@ body::after {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 65px;
+  padding: 56px 32px 72px;
 }
 
 .page-shell {
@@ -212,15 +242,14 @@ button:hover {
   background: var(--pink);
   color: #fff;
   border: 0;
-  border-radius: 11px;
+  border-radius: 8px;
   padding: 9px 14px;
   text-decoration: none;
   font-weight: 700;
   font-size: 0.95rem;
   line-height: 1.2;
   display: inline-flex;
-  width: 210px;
-  justify-content: center;
+  width: fit-content;
   transition: background 0.2s ease;
 }
 
@@ -282,6 +311,12 @@ button:hover {
 }
 
 @media (max-width: 900px) {
+  .app-shell::before,
+  .app-shell::after {
+    background-size: min(980px, 150vw) auto;
+    opacity: 0.75;
+  }
+
   .grid {
     grid-template-columns: 1fr;
   }
@@ -299,12 +334,16 @@ button:hover {
   .btn-back-services,
   .btn-dashboard-link {
     width: 100%;
-    max-width: 260px;
+    max-width: 320px;
   }
 
   .header-inner {
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
+  }
+
+  .container {
+    padding: 28px 18px 56px;
   }
 }
