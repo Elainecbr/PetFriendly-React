@@ -1,6 +1,6 @@
 # PetFriendly React - MVP Front-end Avancado
 
-Aplicacao front-end em React para o ecossistema PetFriendly, com foco em componentizacao, roteamento, usabilidade e organizacao de codigo para avaliacao academica.
+Aplicação front-end em React para o ecossistema PetFriendly, com foco em componentizacao, roteamento, usabilidade e organizacao de codigo para avaliacao academica.
 
 ## Descricao breve
 
@@ -179,13 +179,13 @@ As imagens abaixo podem ser usadas no README e na apresentacao do MVP:
 ## Links dos servicos relacionados (MVPs)
 
 Atualize os links abaixo conforme seus repositorios/deploys oficiais:
-
+https://petfriendly-dashboard.onrender.com/
 | Projeto | Repositorio GitHub | Deploy |
 | --- | --- | --- |
-| pet-web | [repositorio](https://github.com/SEU_USUARIO/pet-web) | [deploy](https://pet-web.onrender.com) |
-| petfriendly | [repositorio](https://github.com/SEU_USUARIO/petfriendly) | [deploy](https://petfriendly.onrender.com) |
-| api-saude-dog | [repositorio](https://github.com/SEU_USUARIO/api-saude-dog) | [deploy](https://api-saude-dog.onrender.com) |
-| petfriendly-react (este projeto) | [repositorio](https://github.com/SEU_USUARIO/petfriendly-react) | [deploy](https://petfriendly-react.onrender.com) |
+| pet-web | [repositorio](https://github.com/SEU_USUARIO/pet-web) | [deploy](https://pet-web-frontend.onrender.com/) |
+| petfriendly | [repositorio](https://github.com/SEU_USUARIO/petfriendly) | [deploy](https://petfriendly-dashboard.onrender.com/) |
+| api-saude-dog-in  pet-web| [repositorio](https://github.com/SEU_USUARIO/api-saude-dog) | [deploy](https://pet-web-frontend.onrender.com/) |
+| petfriendly-react (este projeto) | [repositorio](https://github.com/SEU_USUARIO/petfriendly-react) | [deploy](https://petfriendly-react.onrender.com/) |
 
 ## Planejamento de deploy no Render
 
