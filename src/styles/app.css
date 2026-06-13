@@ -67,23 +67,15 @@ body::after {
 
 .app-shell::before,
 .app-shell::after {
-  content: "";
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: 0;
-  background-image: url('/decor/bgpatinhas.png');
-  background-repeat: no-repeat;
-  background-size: min(1220px, calc(100vw - 56px)) auto;
-  opacity: 0.8;
+  display: none;
 }
 
 .app-shell::before {
-  background-position: center bottom;
+  content: none;
 }
 
 .app-shell::after {
-  display: none;
+  content: none;
 }
 
 .app-shell-inner {
@@ -311,10 +303,8 @@ button:hover {
 }
 
 @media (max-width: 900px) {
-  .app-shell::before,
-  .app-shell::after {
-    background-size: min(980px, calc(100vw - 24px)) auto;
-    opacity: 0.65;
+  .app-shell::before {
+    opacity: 0.7;
   }
 
   .grid {
