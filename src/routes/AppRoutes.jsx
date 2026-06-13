@@ -9,7 +9,7 @@ import NotFound from "../pages/NotFound";
 // Centraliza o mapa de rotas do MVP, incluindo rota dinâmica e página 404.
 export default function AppRoutes() {
   return (
-    <div className="app-shell">
+    <div className="app-shell decor-footer">
       <div className="app-shell-inner">
         <Header />
         <main className="container">
