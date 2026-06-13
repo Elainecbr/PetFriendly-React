@@ -74,16 +74,16 @@ body::after {
   z-index: 0;
   background-image: url('/decor/bgpatinhas.png');
   background-repeat: no-repeat;
-  background-size: min(1400px, 100vw) auto;
-  opacity: 0.95;
+  background-size: min(1220px, calc(100vw - 56px)) auto;
+  opacity: 0.8;
 }
 
 .app-shell::before {
-  background-position: center top;
+  background-position: center bottom;
 }
 
 .app-shell::after {
-  background-position: center bottom;
+  display: none;
 }
 
 .app-shell-inner {
@@ -313,8 +313,8 @@ button:hover {
 @media (max-width: 900px) {
   .app-shell::before,
   .app-shell::after {
-    background-size: min(980px, 150vw) auto;
-    opacity: 0.75;
+    background-size: min(980px, calc(100vw - 24px)) auto;
+    opacity: 0.65;
   }
 
   .grid {
