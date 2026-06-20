@@ -11,7 +11,7 @@ export default function ServiceDetail() {
   const primaryAction =
     service?.id === 2 || service?.id === 3
       ? {
-          href: "https://pet-web-frontend.onrender.com/",
+          href: "https://pet-web-frontend.onrender.com/#consulta-saude-pet",
           label: "🚩 Bem-Estar & Saúde Canina",
         }
       : {
