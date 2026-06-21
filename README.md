@@ -179,12 +179,14 @@ As imagens abaixo podem ser usadas no README e na apresentacao do MVP:
 ## Links dos servicos relacionados (MVPs)
 
 Atualize os links abaixo conforme seus repositorios/deploys oficiais:
-https://petfriendly-dashboard.onrender.com/
+
+- <https://petfriendly-dashboard.onrender.com/>
+
 | Projeto | Repositorio GitHub | Deploy |
 | --- | --- | --- |
 | pet-web | [repositorio](https://github.com/SEU_USUARIO/pet-web) | [deploy](https://pet-web-frontend.onrender.com/) |
 | petfriendly | [repositorio](https://github.com/SEU_USUARIO/petfriendly) | [deploy](https://petfriendly-dashboard.onrender.com/) |
-| api-saude-dog-in  pet-web| [repositorio](https://github.com/SEU_USUARIO/api-saude-dog) | [deploy](https://pet-web-frontend.onrender.com/) |
+| api-saude-dog-in pet-web | [repositorio](https://github.com/SEU_USUARIO/api-saude-dog) | [deploy](https://pet-web-frontend.onrender.com/) |
 | petfriendly-react (este projeto) | [repositorio](https://github.com/SEU_USUARIO/petfriendly-react) | [deploy](https://petfriendly-react.onrender.com/) |
 
 ## Planejamento de deploy no Render
@@ -198,6 +200,12 @@ Checklist detalhado:
 
 - docs/checklist-deploy-render.md
 
+## SDD / Technical Implementation Plan
+
+Para explicitar o processo de planejamento tecnico em formato alinhado a SDD (Specification-Driven Development), este projeto tambem inclui um documento de implementacao tecnica com escopo, requisitos, arquitetura, decisoes de design e criterios de validacao.
+
+- docs/technical-implementation-plan.md
+
 ## Roteiro do video de entrega (max. 5 min)
 
 Roteiro pronto para gravacao:
@@ -209,6 +217,7 @@ Roteiro pronto para gravacao:
 - Repositorio publico GitHub deste front-end.
 - Link do video de apresentacao.
 - Links dos MVPs e APIs relacionados.
+- Documento tecnico SDD / technical implementation plan.
 
 ## Autoria
 
