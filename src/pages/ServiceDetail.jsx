@@ -9,11 +9,16 @@ export default function ServiceDetail() {
   const [loading, setLoading] = useState(true);
   const service = servicesData.find((s) => String(s.id) === id);
   const primaryAction =
-    service?.id === 2 || service?.id === 3
+    service?.id === 3
       ? {
           href: "https://pet-web-frontend.onrender.com/#consulta-saude-pet",
           label: "🚩 Bem-Estar & Saúde Canina",
         }
+      : service?.id === 2
+        ? {
+            href: "https://pet-web-frontend.onrender.com/",
+            label: "🚩 Bem-Estar & Saúde Canina",
+          }
       : {
           href: "https://petfriendly-dashboard.onrender.com/",
           label: "Dashboard PetFriendly",
