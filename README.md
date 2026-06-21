@@ -2,6 +2,9 @@
 
 Aplicação front-end em React para o ecossistema PetFriendly, com foco em componentizacao, roteamento, usabilidade e organizacao de codigo para avaliacao academica.
 
+<img width="986" height="777" alt="grafik" src="https://github.com/user-attachments/assets/a1105e65-bae2-48e1-adf8-83c8f4003936" />
+
+
 ## Descricao breve
 
 Este projeto apresenta uma interface web com navegacao entre paginas, busca de servicos, tela de detalhes e fluxo de agendamento. O MVP foi desenvolvido com componentes reutilizaveis e dados simulados em JSON local, atendendo aos criterios de execucao do trabalho.
