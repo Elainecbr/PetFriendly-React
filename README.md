@@ -191,7 +191,7 @@ Atualize os links abaixo conforme seus repositórios/deploys oficiais:
 | --- | --- | --- |
 | pet-web | [repositorio](https://github.com//Elainecbr/pet-web-frontend) | [deploy](https://pet-web-frontend.onrender.com/) |
 | petfriendly | [repositorio](https://github.com//Elainecbr/petfriendly-dashboard) | [deploy](https://petfriendly-dashboard.onrender.com/) |
-| api-saude-dog-in pet-web | [repositorio](https://github.com/Elainecbr/pet-web-frontend) | [deploy](https://pet-web-frontend.onrender.com/#consulta-saude-pet/)
+| api-saude-dog-in pet-web | [repositorio](https://github.com/Elainecbr/pet-web-frontend) | [deploy]([https://pet-web-frontend.onrender.com/#consulta-saude-pet/](https://pet-web-frontend.onrender.com/#consulta-saude-pet))
 | petfriendly-react (este projeto) | [repositorio](https://github.com/Elainecbr/petfriendly-react) | [deploy](https://petfriendly-react.onrender.com/) |
 
 ## Planejamento de deploy no Render
