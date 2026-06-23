@@ -191,7 +191,7 @@ Atualize os links abaixo conforme seus repositórios/deploys oficiais:
 | --- | --- | --- |
 | pet-web | [repositorio](https://github.com//Elainecbr/pet-web-frontend) | [deploy](https://pet-web-frontend.onrender.com/) |
 | petfriendly | [repositorio](https://github.com//Elainecbr/petfriendly-dashboard) | [deploy](https://petfriendly-dashboard.onrender.com/) |
-| api-saude-dog-in pet-web | [repositorio](https://github.com/Elainecbr/pet-web-frontend) | [deploy]([https://pet-web-frontend.onrender.com/#consulta-saude-pet/](https://pet-web-frontend.onrender.com/#consulta-saude-pet))
+| api-saude-dog-in pet-web | [repositorio](https://github.com/Elainecbr/pet-web-frontend) | [deploy](https://pet-web-frontend.onrender.com/#consulta-saude-pet)
 | petfriendly-react (este projeto) | [repositorio](https://github.com/Elainecbr/petfriendly-react) | [deploy](https://petfriendly-react.onrender.com/) |
 
 ## Planejamento de deploy no Render
@@ -207,7 +207,7 @@ Checklist detalhado:
 
 ## SDD / Technical Implementation Plan
 
-Para explicitar o processo de planejamento tecnico em formato alinhado a SDD (Specification-Driven Development), este projeto tambem inclui um documento de implementação tecnica com escopo, requisitos, arquitetura, decisoes de design e critérios de validação.
+Para explicitar o processo de planejamento técnico em formato alinhado a SDD (Specification-Driven Development), este projeto também inclui um documento de implementação técnica com escopo, requisitos, arquitetura, decisões de design e critérios de validação.
 
 - docs/technical-implementation-plan.md
 
@@ -222,7 +222,7 @@ Roteiro pronto para gravação:
 - repositório publico GitHub deste front-end.
 - Link do video de apresentação.
 - Links dos MVPs e APIs relacionados.
-- Documento tecnico SDD / technical implementation plan.
+- Documento técnico SDD / technical implementation plan.
 
 ## Autoria
 
