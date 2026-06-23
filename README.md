@@ -1,20 +1,20 @@
-# PetFriendly React - MVP Front-end Avancado
+# PetFriendly React - MVP Front-end Avançado
 
-Aplicação front-end em React para o ecossistema PetFriendly, com foco em componentizacao, roteamento, usabilidade e organizacao de codigo para avaliacao academica.
+Aplicação front-end em React para o ecossistema PetFriendly, com foco em componentização, roteamento, usabilidade e organizações de codigo para avaliação académica.
 
 <img width="986" height="777" alt="grafik" src="https://github.com/user-attachments/assets/a1105e65-bae2-48e1-adf8-83c8f4003936" />
 
 
-## Descricao breve
+## Descrição breve
 
-Este projeto apresenta uma interface web com navegacao entre paginas, busca de servicos, tela de detalhes e fluxo de agendamento. O MVP foi desenvolvido com componentes reutilizaveis e dados simulados em JSON local, atendendo aos criterios de execucao do trabalho.
+Este projeto apresenta uma interface web com navegação entre páginas, busca de serviços, tela de detalhes e fluxo de agendamento. O MVP foi desenvolvido com componentes reutilizáveis e dados simulados em JSON local, atendendo aos critérios de execução do trabalho.
 
 ## Objetivo do projeto
 
-- Explorar React com componentizacao em um caso pratico.
-- Aplicar hooks de estado, efeito e navegacao.
-- Construir uma interface responsiva com feedback visual ao usuario.
-- Entregar uma base organizada para evolucao futura com APIs deployadas.
+- Explorar React com componentização em um caso prático.
+- Aplicar hooks de estado, efeito e navegação.
+- Construir uma interface responsiva com feedback visual ao usuário.
+- Entregar uma base organizada para evolução futura com APIs deployadas.
 
 ## Tecnologias utilizadas
 
@@ -26,17 +26,17 @@ Este projeto apresenta uma interface web com navegacao entre paginas, busca de s
 
 ## Funcionalidades
 
-- Navegacao entre paginas com React Router.
-- Busca de servicos por texto.
-- Visualizacao de detalhes por rota dinamica.
-- Formulario de agendamento com validacao local.
+- Navegação entre páginas com React Router.
+- Busca de serviços por texto.
+- Visualização de detalhes por rota dinâmica.
+- Formulário de agendamento com validação local.
 - Feedbacks visuais de carregamento, sucesso, erro e lista vazia.
 
 ## Requisitos do MVP atendidos
 
-### Componentizacao e paginas
+### Componentização e páginas
 
-- Aplicacao com 3+ paginas funcionais.
+- Aplicação com 3+ páginas funcionais.
 - Uso de componentes reutilizaveis no layout e nos fluxos de tela.
 
 ### Componentes reutilizaveis implementados
@@ -56,7 +56,7 @@ Este projeto apresenta uma interface web com navegacao entre paginas, busca de s
 
 ### Estado e ciclo de vida
 
-- useState e useEffect aplicados em busca/listagem e formulario.
+- useState e useEffect aplicados em busca/listagem e Formulário.
 
 ### Usabilidade e responsividade
 
@@ -66,7 +66,7 @@ Este projeto apresenta uma interface web com navegacao entre paginas, busca de s
 
 ### Dados simulados
 
-- Leitura de dados locais por JSON (services.json), simulando requisicao.
+- Leitura de dados locais por JSON (services.json), simulando requisição.
 
 ## Estrutura de pastas
 
@@ -88,27 +88,27 @@ docs/
 
 ### Etapa 1 - Base do projeto
 
-- Inicializacao do projeto com Vite + React.
-- Configuracao de roteamento e estrutura de pastas.
+- Inicialização do projeto com Vite + React.
+- Configuração de roteamento e estrutura de pastas.
 
 ### Etapa 2 - Telas principais
 
-- Implementacao das paginas Home, Services, ServiceDetail, Booking e NotFound.
-- Definicao de componentes reaproveitaveis para manter consistencia.
+- Implementação das páginas Home, Services, ServiceDetail, Booking e NotFound.
+- Definição de componentes reaproveitaveis para manter consistência.
 
 ### Etapa 3 - Usabilidade e qualidade
 
-- Adicao de loading, alertas de status e mensagem de nenhum resultado.
+- Adição de loading, alertas de status e mensagem de nenhum resultado.
 - Ajustes de responsividade para diferentes tamanhos de tela.
-- Validacao de lint e build.
+- Validação de lint e build.
 
-### Etapa 4 - Preparacao para integracao externa
+### Etapa 4 - Preparação para integração externa
 
-- Centralizacao de endpoints em arquivo de configuracao.
-- Criacao de servico HTTP isolado para Dog API.
-- Planejamento de deploy no Render para os servicos relacionados.
+- Centralização de endpoints em arquivo de configuração.
+- Criação de serviço HTTP isolado para Dog API.
+- Planejamento de deploy no Render para os serviços relacionados.
 
-## Instalacao e execucao local
+## Instalação e execução local
 
 ### Pre-requisitos
 
@@ -117,13 +117,13 @@ docs/
 
 ### Passo a passo
 
-1. Clonar o repositorio.
+1. Clonar o repositório.
 2. Entrar na pasta do projeto.
-3. Instalar dependencias.
+3. Instalar dependências.
 4. Executar em modo desenvolvimento.
 
 ```bash
-git clone https://github.com/SEU_USUARIO/petfriendly-react.git
+git clone https://github.com/SEU_usuário/petfriendly-react.git
 cd petfriendly-react
 npm install
 npm run dev
@@ -132,24 +132,24 @@ npm run dev
 ### Comandos disponiveis
 
 - npm run dev: inicia servidor de desenvolvimento.
-- npm run lint: executa verificacoes de qualidade.
-- npm run build: gera build de producao.
+- npm run lint: executa verificações de qualidade.
+- npm run build: gera build de produção.
 - npm run preview: pre-visualiza build localmente.
 
-## Documentacao dos arquivos de codigo
+## Documentação dos arquivos de codigo
 
 ### Nucleo
 
 - src/main.jsx: bootstrap do React e BrowserRouter.
-- src/App.jsx: componente raiz.
-- src/routes/AppRoutes.jsx: mapa de rotas, incluindo dinamica e 404.
+- src/App.jsx: componente raíz.
+- src/routes/AppRoutes.jsx: mapa de rotas, incluindo dinâmica e 404.
 
-### Paginas
+### páginas
 
-- src/pages/Home.jsx: pagina inicial com navegacao e busca rapida.
+- src/pages/Home.jsx: pagina inicial com navegação e busca rapida.
 - src/pages/Services.jsx: listagem com busca, loading e feedback.
 - src/pages/ServiceDetail.jsx: detalhes por id com useParams.
-- src/pages/Booking.jsx: formulario com validacao e mensagem de status.
+- src/pages/Booking.jsx: Formulário com validação e mensagem de status.
 - src/pages/NotFound.jsx: fallback para URL inexistente.
 
 ### Componentes reutilizaveis
@@ -160,28 +160,28 @@ npm run dev
 - src/components/FeedbackAlert.jsx
 - src/components/LoadingSpinner.jsx
 
-### Dados e integracoes
+### Dados e integrações
 
 - src/data/services.json: dados simulados locais.
-- src/config/api.js: configuracoes de endpoints.
+- src/config/api.js: configurações de endpoints.
 - src/services/dogApi.js: camada de acesso a API externa.
 
 ### Estilos e assets
 
 - src/styles/app.css: estilos globais e responsividade.
-- public/decor/: assets estaticos servidos em producao.
+- public/decor/: assets estáticos servidos em produção.
 
 ## Imagens do projeto
 
-As imagens abaixo podem ser usadas no README e na apresentacao do MVP:
+As imagens abaixo podem ser usadas no README e na apresentação do MVP:
 
 ![Capa PetFriendly](public/decor/caoz8.png)
 ![Agendamento](public/decor/caoz1.png)
 ![Saude canina](public/decor/caoz7.png)
 
-## Links dos servicos relacionados (MVPs)
+## Links dos serviços relacionados (MVPs)
 
-Atualize os links abaixo conforme seus repositorios/deploys oficiais:
+Atualize os links abaixo conforme seus repositórios/deploys oficiais:
 
 - <https://petfriendly-dashboard.onrender.com/>
 
@@ -189,12 +189,12 @@ Atualize os links abaixo conforme seus repositorios/deploys oficiais:
 | --- | --- | --- |
 | pet-web | [repositorio](https://github.com/SEU_USUARIO/pet-web) | [deploy](https://pet-web-frontend.onrender.com/) |
 | petfriendly | [repositorio](https://github.com/SEU_USUARIO/petfriendly) | [deploy](https://petfriendly-dashboard.onrender.com/) |
-| api-saude-dog-in pet-web | [repositorio](https://github.com/SEU_USUARIO/api-saude-dog) | [deploy](https://pet-web-frontend.onrender.com/) |
+| api-saude-dog-in pet-web | [repositorio](https://github.com/SEU_USUARIO/api-saude-dog) | [deploy]([https://pet-web-frontend.onrender.com/](https://pet-web-frontend.onrender.com/#consulta-saude-pet)) |
 | petfriendly-react (este projeto) | [repositorio](https://github.com/SEU_USUARIO/petfriendly-react) | [deploy](https://petfriendly-react.onrender.com/) |
 
 ## Planejamento de deploy no Render
 
-Este repositorio ja esta preparado para deploy web estatico (front-end) apos concluir os estudos do Render.
+Este repositório ja esta preparado para deploy web estático (front-end) apos concluir os estudos do Render.
 
 - Build command: npm run build
 - Publish directory: dist
@@ -205,23 +205,24 @@ Checklist detalhado:
 
 ## SDD / Technical Implementation Plan
 
-Para explicitar o processo de planejamento tecnico em formato alinhado a SDD (Specification-Driven Development), este projeto tambem inclui um documento de implementacao tecnica com escopo, requisitos, arquitetura, decisoes de design e criterios de validacao.
+Para explicitar o processo de planejamento tecnico em formato alinhado a SDD (Specification-Driven Development), este projeto tambem inclui um documento de implementação tecnica com escopo, requisitos, arquitetura, decisoes de design e critérios de validação.
 
 - docs/technical-implementation-plan.md
 
 ## Roteiro do video de entrega (max. 5 min)
 
-Roteiro pronto para gravacao:
+Roteiro pronto para gravação:
 
 - docs/roteiro-video.md
 
 ## Evidencias para entrega final
 
-- Repositorio publico GitHub deste front-end.
-- Link do video de apresentacao.
+- repositório publico GitHub deste front-end.
+- Link do video de apresentação.
 - Links dos MVPs e APIs relacionados.
 - Documento tecnico SDD / technical implementation plan.
 
 ## Autoria
 
 Projeto desenvolvido por Elaine C. Bundscherer para a disciplina de Front-end Avancado (MVP).
+
