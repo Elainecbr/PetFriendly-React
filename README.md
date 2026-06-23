@@ -213,16 +213,44 @@ Para explicitar o processo de planejamento técnico em formato alinhado a SDD (S
 
 ## Roteiro do video de entrega (max. 5 min)
 
-Roteiro pronto para gravação:
+### Roteiro pronto para gravação:
+    - Objetivo
+    - Objetivo do projeto
+        - Problema que a aplicacao resolve.
+        - Contexto PetFriendly.
+        - Resultado esperado para o usuario.
+    - Componentizacao (4+ componentes)
+        - Mostrar os componentes, o que são, os reutilizados e onde aparecem:
+        - Header
+        - SearchBar
+        - ServiceCard
+        - FeedbackAlert
+        - LoadingSpinner
+        - Explicar rapidamente a vantagem de reaproveitamento
+    - Navegacao e roteamento
+        - Rotas principais.
+        - Rota dinamica de detalhes.
+        - Rota 404.
+        - Uso de useNavigate, useParams e useLocation.
+    - Usabilidade
+        - Mostrar em funcionamento:
+          - Loading.
+          - Mensagem de nenhum item encontrado.
+          - Mensagem de sucesso/erro no agendamento.
+          - Busca rapida na Home para Servicos
+    - Responsividade
+          - Troca de viewport desktop para mobile.
+          - Comentar que layout permanece legivel e funcional.
+    - Encerramento
+          - Onde esta o repositorio.
+          - Onde esta o deploy (quando publicado).  
 
-- docs/roteiro-video.md
-
-## Evidencias para entrega final
+## Para entrega final
 
 - repositório publico GitHub deste front-end.
 - Link do video de apresentação.
 - Links dos MVPs e APIs relacionados.
-- Documento técnico SDD / technical implementation plan.
+- Documento técnico SDD / technical implementation plan no docs/.
 
 ## Autoria
 
